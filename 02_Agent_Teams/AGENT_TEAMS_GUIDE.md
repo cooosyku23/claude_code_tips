@@ -80,7 +80,7 @@ one playing devil's advocate.
 
 事前に `.claude/agents/` にサブエージェント定義ファイルが存在する前提です。プロンプト例は公式ドキュメントに倣い英語で記載していますが、日本語でも同様に動作します。
 
-**例 1: 既存のサブエージェントを指定してチームメイトを生成** ✅
+**例 1: 既存のサブエージェントを指定してチームメイトを生成**
 
 ```
 Please spawn the specialized subagents as teammates:
@@ -91,7 +91,7 @@ Have them work in parallel and share findings with each other.
 
 このプロンプトにより、`performance-profiler` と `security-auditor` のサブエージェント定義がそのままチームメイトとして起動し、汎用エージェントではなく専門化された型として動作します。
 
-**例 2: 多角的コードレビューにカスタムサブエージェントを活用** ⚠️
+**例 2: 多角的コードレビューにカスタムサブエージェントを活用**
 
 ```
 Create an agent team to review the authentication module.
@@ -102,7 +102,7 @@ Spawn the following subagents as teammates:
 Have them challenge each other's findings before reporting.
 ```
 
-**例 3: カスタムサブエージェントと汎用チームメイトの混成チーム** ⚠️
+**例 3: カスタムサブエージェントと汎用チームメイトの混成チーム**
 
 ```
 Create an agent team for the payment refactor:
